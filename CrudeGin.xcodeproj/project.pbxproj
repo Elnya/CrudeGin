@@ -1,0 +1,267 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6001A8A61356D69A00D81F8A /* CGEncoding.c in Sources */ = {isa = PBXBuildFile; fileRef = 6001A8A41356D69A00D81F8A /* CGEncoding.c */; };
+		6001A8A71356D69A00D81F8A /* CGEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 6001A8A51356D69A00D81F8A /* CGEncoding.h */; };
+		606B30E4134EDDEC003391C0 /* CGRange.h in Headers */ = {isa = PBXBuildFile; fileRef = 606B30E2134EDDEC003391C0 /* CGRange.h */; };
+		60723E5F13246D6A00A20373 /* CGArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 60723E5E13246D6A00A20373 /* CGArray.h */; };
+		60723E6313246DAB00A20373 /* CGNumberArray.c in Sources */ = {isa = PBXBuildFile; fileRef = 60723E6113246DAB00A20373 /* CGNumberArray.c */; };
+		60723E6413246DAB00A20373 /* CGNumberArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 60723E6213246DAB00A20373 /* CGNumberArray.h */; };
+		60723E6713246EF100A20373 /* CGNumber.c in Sources */ = {isa = PBXBuildFile; fileRef = 60723E6513246EF100A20373 /* CGNumber.c */; };
+		60723E6813246EF100A20373 /* CGNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 60723E6613246EF100A20373 /* CGNumber.h */; };
+		6077550C1324A480006E23B9 /* CGError.h in Headers */ = {isa = PBXBuildFile; fileRef = 6077550B1324A47F006E23B9 /* CGError.h */; };
+		60CB2F651320F93200C16CDF /* CrudeGin.h in Headers */ = {isa = PBXBuildFile; fileRef = 60CB2F641320F93200C16CDF /* CrudeGin.h */; };
+		60CB2F681320F94F00C16CDF /* CGString.c in Sources */ = {isa = PBXBuildFile; fileRef = 60CB2F661320F94F00C16CDF /* CGString.c */; };
+		60CB2F691320F94F00C16CDF /* CGString.h in Headers */ = {isa = PBXBuildFile; fileRef = 60CB2F671320F94F00C16CDF /* CGString.h */; };
+		60CB2F6B1320F9AA00C16CDF /* CGTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 60CB2F6A1320F9AA00C16CDF /* CGTypes.h */; };
+		60CB2F751321034E00C16CDF /* CGBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 60CB2F741321034E00C16CDF /* CGBase.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6001A8A41356D69A00D81F8A /* CGEncoding.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CGEncoding.c; sourceTree = "<group>"; };
+		6001A8A51356D69A00D81F8A /* CGEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGEncoding.h; sourceTree = "<group>"; };
+		606B30E2134EDDEC003391C0 /* CGRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGRange.h; sourceTree = "<group>"; };
+		60723E5E13246D6A00A20373 /* CGArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGArray.h; sourceTree = "<group>"; };
+		60723E6113246DAB00A20373 /* CGNumberArray.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CGNumberArray.c; sourceTree = "<group>"; };
+		60723E6213246DAB00A20373 /* CGNumberArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGNumberArray.h; sourceTree = "<group>"; };
+		60723E6513246EF100A20373 /* CGNumber.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CGNumber.c; sourceTree = "<group>"; };
+		60723E6613246EF100A20373 /* CGNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGNumber.h; sourceTree = "<group>"; };
+		6077550B1324A47F006E23B9 /* CGError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGError.h; sourceTree = "<group>"; };
+		60CB2F5C1320F90600C16CDF /* libCrudeGin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCrudeGin.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		60CB2F641320F93200C16CDF /* CrudeGin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrudeGin.h; sourceTree = "<group>"; };
+		60CB2F661320F94F00C16CDF /* CGString.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CGString.c; sourceTree = "<group>"; };
+		60CB2F671320F94F00C16CDF /* CGString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGString.h; sourceTree = "<group>"; };
+		60CB2F6A1320F9AA00C16CDF /* CGTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTypes.h; sourceTree = "<group>"; };
+		60CB2F741321034E00C16CDF /* CGBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGBase.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60CB2F591320F90600C16CDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60CB2F511320F90600C16CDF = {
+			isa = PBXGroup;
+			children = (
+				60CB2F631320F91500C16CDF /* CrudeGin */,
+				60CB2F5D1320F90600C16CDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60CB2F5D1320F90600C16CDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60CB2F5C1320F90600C16CDF /* libCrudeGin.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60CB2F631320F91500C16CDF /* CrudeGin */ = {
+			isa = PBXGroup;
+			children = (
+				60CB2F6C1320FFF000C16CDF /* Headers */,
+				60CB2F6D1320FFFC00C16CDF /* Implementations */,
+			);
+			name = CrudeGin;
+			sourceTree = "<group>";
+		};
+		60CB2F6C1320FFF000C16CDF /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				60723E5E13246D6A00A20373 /* CGArray.h */,
+				60CB2F741321034E00C16CDF /* CGBase.h */,
+				6001A8A51356D69A00D81F8A /* CGEncoding.h */,
+				6077550B1324A47F006E23B9 /* CGError.h */,
+				60723E6613246EF100A20373 /* CGNumber.h */,
+				60723E6213246DAB00A20373 /* CGNumberArray.h */,
+				606B30E2134EDDEC003391C0 /* CGRange.h */,
+				60CB2F671320F94F00C16CDF /* CGString.h */,
+				60CB2F6A1320F9AA00C16CDF /* CGTypes.h */,
+				60CB2F641320F93200C16CDF /* CrudeGin.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		60CB2F6D1320FFFC00C16CDF /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				6001A8A41356D69A00D81F8A /* CGEncoding.c */,
+				60723E6513246EF100A20373 /* CGNumber.c */,
+				60723E6113246DAB00A20373 /* CGNumberArray.c */,
+				60CB2F661320F94F00C16CDF /* CGString.c */,
+			);
+			name = Implementations;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		60CB2F5A1320F90600C16CDF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60CB2F651320F93200C16CDF /* CrudeGin.h in Headers */,
+				60CB2F691320F94F00C16CDF /* CGString.h in Headers */,
+				60CB2F6B1320F9AA00C16CDF /* CGTypes.h in Headers */,
+				60CB2F751321034E00C16CDF /* CGBase.h in Headers */,
+				60723E5F13246D6A00A20373 /* CGArray.h in Headers */,
+				60723E6413246DAB00A20373 /* CGNumberArray.h in Headers */,
+				60723E6813246EF100A20373 /* CGNumber.h in Headers */,
+				6077550C1324A480006E23B9 /* CGError.h in Headers */,
+				606B30E4134EDDEC003391C0 /* CGRange.h in Headers */,
+				6001A8A71356D69A00D81F8A /* CGEncoding.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		60CB2F5B1320F90600C16CDF /* CrudeGin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60CB2F601320F90600C16CDF /* Build configuration list for PBXNativeTarget "CrudeGin" */;
+			buildPhases = (
+				60CB2F581320F90600C16CDF /* Sources */,
+				60CB2F591320F90600C16CDF /* Frameworks */,
+				60CB2F5A1320F90600C16CDF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrudeGin;
+			productName = CrudeGin;
+			productReference = 60CB2F5C1320F90600C16CDF /* libCrudeGin.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60CB2F531320F90600C16CDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "SI devIk";
+			};
+			buildConfigurationList = 60CB2F561320F90600C16CDF /* Build configuration list for PBXProject "CrudeGin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 60CB2F511320F90600C16CDF;
+			productRefGroup = 60CB2F5D1320F90600C16CDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60CB2F5B1320F90600C16CDF /* CrudeGin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60CB2F581320F90600C16CDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60CB2F681320F94F00C16CDF /* CGString.c in Sources */,
+				60723E6313246DAB00A20373 /* CGNumberArray.c in Sources */,
+				60723E6713246EF100A20373 /* CGNumber.c in Sources */,
+				6001A8A61356D69A00D81F8A /* CGEncoding.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		60CB2F5E1320F90600C16CDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		60CB2F5F1320F90600C16CDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		60CB2F611320F90600C16CDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				EXECUTABLE_PREFIX = lib;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		60CB2F621320F90600C16CDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60CB2F561320F90600C16CDF /* Build configuration list for PBXProject "CrudeGin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60CB2F5E1320F90600C16CDF /* Debug */,
+				60CB2F5F1320F90600C16CDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60CB2F601320F90600C16CDF /* Build configuration list for PBXNativeTarget "CrudeGin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60CB2F611320F90600C16CDF /* Debug */,
+				60CB2F621320F90600C16CDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60CB2F531320F90600C16CDF /* Project object */;
+}
